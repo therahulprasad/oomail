@@ -54,6 +54,6 @@ $obj->bcc(array('yourname1@example.com', 'yourname2@example.com'));
 // Reply to > Just email
 $obj->replyTo('yourname@example.com');
 // Reply To > Name and email
-$obj->replyTo(array('Your name' => 'yourname@example.com'));
+$obj->replyTo('Your name', 'yourname@example.com');
 
 ?>
